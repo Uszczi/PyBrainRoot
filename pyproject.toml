@@ -1,7 +1,10 @@
 [project]
 name = "pybrainroot"
 version = "0.1.0"
-description = "Add your description here"
+description = ""
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "kivy==2.3.1",
+    "pillow",
+]
